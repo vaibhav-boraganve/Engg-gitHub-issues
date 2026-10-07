@@ -15,13 +15,7 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-The API is then available at `http://127.0.0.1:8000`. Data is stored in `reporters.json` and `issues.json` next to `manage.py`. Both files start as empty lists.
-
-Run the tests with:
-
-```bash
-python manage.py test
-```
+The API is then available at `http://127.0.0.1:8000`. Data is stored in `reporters.json` and `issues.json` next to `manage.py`. Those files already include three sample reporters and three sample issues.
 
 ## Endpoints
 
